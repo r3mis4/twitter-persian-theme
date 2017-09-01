@@ -1,0 +1,17 @@
+{
+  "name": "twitter-persian-theme",
+  "version": "0.1.5",
+  "description": "Twitter Persian theme",
+  "scripts": {
+    "build": "node_modules/gulp/bin/gulp.js"
+  },
+  "author": "r3mi4a <r3mi4a@yahoo.com> (https://github.com/r3mi4a)",
+  "license": "MIT",
+  "devDependencies": {
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-jsoncombine": "^1.0.3",
+    "gulp-sass": "^3.1.0",
+    "run-sequence": "^2.1.0"
+  }
+}
