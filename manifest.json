@@ -1,9 +1,9 @@
 {
   "manifest_version": 2,
-  "name": "Twitter Web - Night Mode",
+  "name": "twitter-persian-theme",
   "version": "0.0.20",
-  "description": "Android/iOS like night mode for twitter web app",
-  "homepage_url": "https://github.com/tsriram/twitter-web-night-mode",
+  "description": "Twitter Persian theme",
+  "homepage_url": "https://github.com/r3mis4/twitter-persian-theme",
 
   "background": {
     "scripts": [
@@ -42,5 +42,5 @@
     "storage"
   ],
 
-  "author": "Sriram Thiagarajan"
+  "author": "r3mis4"
 }

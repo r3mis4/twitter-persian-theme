@@ -1,9 +1,15 @@
+$faceFontPersian: 'yekan';
+$faceFontLatin: 'Arial';
+
+
+/*
 @font-face {
-	font-family: 'yekan';
-	src: url('chrome-extension://__MSG_@@extension_id__/fonts/yekan.woff');
+	font-family: 'dastnevis';
+	src: url('chrome-extension://__MSG_@@extension_id__/fonts/dastnevis.woff');
 	font-weight: normal;
 	font-style: normal;
 	}
+*/
 
 	.route-profile .module .flex-module, .TwitterCardsGrid .module .flex-module, .route-connect .module .flex-module {
 		background-color: $dark-bg!important;
@@ -18,10 +24,10 @@
 	.u-floatLeft, .u-floatRight
 	 { color: white; }
 
-
 	 ::-webkit-scrollbar-track
 	 {
 		 -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.1);
+		 box-shadow: inset 0 0 6px rgba(0,0,0,0.1);
 		 background-color: #F5F5F5;
 		 border-radius: 10px;
 	 }
@@ -45,36 +51,37 @@
 											color-stop(.6,$nav-bar-icon-color))
 	 }
 
-
-/*
-@font-face {
-	font-family: 'dastnevis';
-	src: url('chrome-extension://__MSG_@@extension_id__/fonts/dastnevis.woff');
-	font-weight: normal;
-	font-style: normal;
-	}
-*/
-
 /* TODO
 .follow-button {}
 .follow-button: hover {}
 */
 
 p:lang(fa), input, .fullname, .u-dir[dir="rtl"] {
-	font-family: yekan, Arial;
+	font-family: $faceFontPersian, $faceFontLatin;
 }
+
+/* Currently not supported by Twitter
+.DMInboxItem-snippet:lang(fa) { text-align: right; }
+*/
+
+.DMInboxItem-snippet { text-align: right; }
+
+span.username.u-dir { font-family: $faceFontLatin }
 
 .ProfileHeaderCard-location, .ProfileHeaderCard-nameLink,
 .EdgeButton--primary, .RichEditor, .typeahead-items,
 .tweet-text-rtl, .DMActivity-title, .DMInboxItem,
 .TwitterCardsGrid-rtl {
-	font-family: yekan, Arial;
+	font-family: $faceFontPersian, $faceFontLatin;
 }
+
+
 
 // .pushstate-spinner img { src: url('images/z.gif') }
 
 // Search suggestions
-b, strong { font-family: yekan, Arial; }
+b, strong { font-family: $faceFontPersian, $faceFontLatin; }
+.tweet .context a { font-family: $faceFontPersian, $faceFontLatin; }
 
 .ProfileSidebar .flex-module-header h3 { color: white }
 .stats .stat-count strong { color: #90427a }

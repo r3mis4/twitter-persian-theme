@@ -11,6 +11,7 @@ function setNightMode() {
     var style = document.createElement('link');
     style.rel = 'stylesheet';
     style.type = 'text/css';
+    addFont('yekan');
     style.href = chrome.extension.getURL('css/main.css');
     (document.head||document.documentElement).appendChild(style);
   }
@@ -45,4 +46,14 @@ function removeUserStyle() {
       profileUserStyle && profileUserStyle.remove();
     }
   }
+}
+
+// Added font should be saved as "fontName.woff" inside "fonts" folder
+function addFont(fontName){
+  var fa = document.createElement('style');
+  fa.type = 'text/css';
+  fa.textContent = '@font-face { font-family: ' + fontName +
+  '; src: url("' + chrome.extension.getURL('fonts/' + fontName +
+   '.woff') + '"); }';
+  document.head.appendChild(fa);
 }

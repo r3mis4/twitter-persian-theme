@@ -1,6 +1,7 @@
 MIT License
 
-Copyright (c) 2016 Sriram Thiagarajan
+Original work Copyright (c) 2016 Sriram Thiagarajan
+Modified work Copyright 2017 r3mis4
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
