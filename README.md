@@ -6,7 +6,7 @@ Download extension:
 
 - TODO: add URL
 
-## [Firefox](https://addons.mozilla.org/en-US/developers/addon/twitter-persian-theme)
+## [Firefox](https://addons.mozilla.org/en-us/firefox/addon/twitter-persian-theme/)
 ### [Download add-on and install manually](https://github.com/r3mis4/twitter-persian-theme/blob/master/extra-items/release/firefox.xpi)
 
 - TODO: add URL
