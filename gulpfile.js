@@ -18,7 +18,7 @@ var paths = {
 var ffmanifest = {
   "applications": {
     "gecko": {
-      "id": "twitter-persian-theme@mozilla.org"
+      "id": "twitter-persian-theme@example.com"
     }
   }
 }
