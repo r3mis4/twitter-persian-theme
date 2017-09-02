@@ -5,6 +5,10 @@
   "scripts": {
     "build": "node_modules/gulp/bin/gulp.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/r3mis4/twitter-persian-theme.git"
+  },
   "author": "r3mi4a <r3mi4a@yahoo.com> (https://github.com/r3mi4a)",
   "license": "MIT",
   "devDependencies": {
