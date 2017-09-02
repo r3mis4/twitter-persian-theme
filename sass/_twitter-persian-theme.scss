@@ -56,6 +56,12 @@ $faceFontLatin: 'Arial';
 .follow-button: hover {}
 */
 
+/*
+html:lang(fa), body:lang(fa) {
+	font-family: $faceFontPersian, $faceFontLatin;
+}
+*/
+
 p:lang(fa), input, .fullname, .u-dir[dir="rtl"] {
 	font-family: $faceFontPersian, $faceFontLatin;
 }
