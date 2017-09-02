@@ -7,7 +7,7 @@
 
   "background": {
     "scripts": [
-      "js/twitter-night-mode-bg.js"
+      "js/twitter-persian-theme-bg.js"
     ]
   },
 
@@ -29,7 +29,7 @@
         "https://twitter.com/",
         "https://twitter.com/i/cards/*"
      ],
-     "js": ["js/twitter-night-mode.js"],
+     "js": ["js/twitter-persian-theme.js"],
      "all_frames": true,
      "run_at" : "document_start"
    }
