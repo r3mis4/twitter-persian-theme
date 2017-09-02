@@ -1,2 +1,7 @@
-@import "colors";
-@import "twitter-persian-theme";
+$faceFontPersian: 'yekan';
+$faceFontLatin: 'Arial';
+
+html:lang(fa), body:lang(fa) {
+	font-family: $faceFontPersian, $faceFontLatin;
+}
+
